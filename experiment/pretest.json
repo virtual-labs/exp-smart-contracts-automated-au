@@ -1,38 +1,55 @@
 {
-  "version": 2.0,
+  "version": 1.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is a smart contract in the context of blockchain?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "A self-executing contract with the terms of the agreement directly written into code.",
+        "b": "A physical document signed by parties involved in a blockchain transaction.",
+        "c": "A traditional legal contract stored on a blockchain.",
+        "d": "A type of cryptocurrency used for executing transactions on a blockchain."
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Correct! Smart contracts are self-executing contracts with the terms written into code, automatically enforcing the agreement.",
+        "b": "Incorrect. Smart contracts are digital and self-executing, eliminating the need for physical documents.",
+        "c": "Incorrect. Smart contracts are not traditional legal contracts but programmable contracts on a blockchain.",
+        "d": "Incorrect. Smart contracts are code-based, not a type of cryptocurrency."
       },
       "correctAnswer": "a",
-      "difficulty": "beginner"
+      "difficulty": "intermediate"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "How can smart contracts benefit supply chain management?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "By increasing transparency and traceability in the supply chain.",
+        "b": "By eliminating the need for any human intervention in supply chain processes.",
+        "c": "By reducing the overall complexity of supply chain systems.",
+        "d": "By providing a secure way to store physical goods in the supply chain."
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+        "a": "Correct! Smart contracts enhance transparency and traceability by recording every transaction on the blockchain.",
+        "b": "Incorrect. While smart contracts automate processes, some human intervention may still be required in supply chain management.",
+        "c": "Incorrect. Smart contracts may add complexity due to their programmable nature but offer benefits in return.",
+        "d": "Incorrect. Smart contracts deal with digital information on the blockchain, not physical goods."
       },
-      "correctAnswer": "c",
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which blockchain platform is known for supporting smart contracts?",
+      "answers": {
+        "a": "Ethereum",
+        "b": "Bitcoin",
+        "c": "Ripple",
+        "d": "Litecoin"
+      },
+      "explanations": {
+        "a": "Correct! Ethereum is a well-known blockchain platform that supports smart contracts.",
+        "b": "Incorrect. Bitcoin does not natively support complex smart contracts like Ethereum.",
+        "c": "Incorrect. Ripple is primarily focused on facilitating international money transfers, not smart contracts.",
+        "d": "Incorrect. Litecoin is a cryptocurrency similar to Bitcoin but does not focus on smart contracts."
+      },
+      "correctAnswer": "a",
       "difficulty": "beginner"
     }
   ]
