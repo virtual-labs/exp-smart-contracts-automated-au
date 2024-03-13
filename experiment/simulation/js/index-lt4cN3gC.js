@@ -85843,13 +85843,13 @@ const OrbitControls = reactExports.forwardRef(
             jsxRuntimeExports.jsx("div", {}),
             jsxRuntimeExports.jsxs(Canvas, {
               style: { height: "500px" },
-              camera: { position: [10, 0, -40], fov: 30 },
+              camera: { position: [7, 0, -40], fov: 50 },
               children: [
                 jsxRuntimeExports.jsxs("scene", {
                   position: [0, 0, 0],
                   children: [
                     jsxRuntimeExports.jsx("perspectiveCamera", {
-                      position: [10, 0, 0],
+                      position: [7, 0, 0],
                       fov: 110,
                     }),
                     o.map((ln, fn) =>

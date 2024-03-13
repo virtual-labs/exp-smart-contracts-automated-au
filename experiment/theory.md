@@ -1,13 +1,13 @@
 <u><h3>Theory</h3></u>
 <b><p> Smart contract</p></b>
 
-<p><b>Traditional contracts:</b> These are written agreements between two or more parties, outlining rights, obligations, and consequences. They rely on trust, legal systems, and intermediaries like lawyers for enforcement.
+<p><b>Traditional contracts:</b> These are written agreements between two or more parties, outlining rights, obligations, and consequences. They rely on trust, legal systems, and intermediaries like lawyers for enforcement.</p>
 
-<b>Smart contracts:</b> Smart contracts are computer programs that are hosted and executed on a blockchain network. Each smart contract consists of code specifying predetermined conditions that, when met, trigger outcomes. By running on a decentralised blockchain instead of a centralised server, smart contracts allow multiple parties to come to a shared result in an accurate, timely, and tamper-proof manner.
+<p><b>Smart contracts:</b> Smart contracts are computer programs that are hosted and executed on a blockchain network. Each smart contract consists of code specifying predetermined conditions that, when met, trigger outcomes. By running on a decentralised blockchain instead of a centralised server, smart contracts allow multiple parties to come to a shared result in an accurate, timely, and tamper-proof manner.
 
 </p>
 
- <center><img src="/blockchain/experiment/images/smartcontract2.2.jpg" alt="proof"></div></center>
+ <center><div><img src="./images/smartcontract2.2.jpg" alt="proof"></div></center>
  <p>Smart contracts have the potential to revolutionise a wide range of industries, including supply chain management, financial services, and healthcare.
 </p>
 <p><b>IBM, Honeywell, and Walmart</b> are three of the world's leading companies that are using smart contracts in real-world applications. 
@@ -28,6 +28,7 @@
 |Walmart|Walmart Food Safety and Traceability|Ensuring food safety and reducing food waste|Smart contracts track food provenance and identify potential contamination risks|Enhances food safety, reduces food waste|
 ||Walmart Blockchain Freight Pilot|Optimising freight routing and reducing fuel consumption|Smart contracts track freight location, optimise routes, and automate payments|Improves logistics efficiency, reduces fuel costs|
 ||Open-source blockchain contribution|Promoting open standards and collaboration|Smart contracts are open-source,contributing to industry standards|Enhances blockchain ecosystem development, promotes interoperability| 
+
 
 
 <p> We have developed a usecase on Secure and Transparent Pharmaceutical Supply Chain with Blockchain</p>
