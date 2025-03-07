@@ -1,2 +1,2 @@
 
-<h2>Ensuring Transparency with Smart Contracts</h2>
+<h2>Smart Contract Automation</h2>

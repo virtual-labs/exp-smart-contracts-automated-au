@@ -1,57 +1,84 @@
-<u><h3>Procedure</h3></u>
- <p>In this simulation, we will demonstrate Pharmaceutical Supply Chain Simulation with Blockchain. </p>
- <p>To demonstrate the application of blockchain in enhancing transparency, traceability, and security in the pharmaceutical supply chain, mitigating the risks associated with the transportation of medicines.</p>
- <b><p>1. Shipment of goods </p></b>
- <p> Manufacturer initiates the simulation by adding a new set of goods for shipment.
- The blockchain network notifies all relevant entities, including distributors, retailers, pharmacists, and customers.</p>
- 
- - <p>Choose medicine name , and quantity from the list and set an  expiry date, upon submiting the form ,a table containing the details of the medicine will be visible .</p> 
- - <p>Observe a new block being added to the ledger having all the details of the medicine </p>
- <div><img src="./images/medicineform.png" alt="medicine form "></div>
- <b><p>2.Goods in Transit</p></b>
- <p> Distributor picks up the goods from the manufacturer.
- During transit, real-time information about the medicine, such as temperature, expiry date, and humidity, is recorded on the blockchain.</p>
- 
- - <p>Copy paste the batch number for the medicine data table and click on view details will provide details about the medicine . </p>
-  <div><img src="./images/distributors.png" alt="medicine going to warehouse "></div>
- <b><p>3.Goods Arrival at Warehouse </p></b>
- <p>Goods reach the warehouse. Warehouse personnel can access current details of the medicine through the blockchain, ensuring transparency and traceability.</p>
+<h3>Procedure</h3>
 
- - Copy paste the batch number for the medicine data table and click on view details will provide details about the medicine .
- 
- - Observe the blocks being added to the ledger having the details of the medicine  
- 
-  <div><img src="./images/reatiler.png" alt="medicine warehouse"></div>
- <b><p>4.Order Placement:Retailer Stage </p></b>
- <p> Retailer checks the current details of the medicine.Pharmacist places an order based on stock and demand.Blockchain records the order transaction.</p>
- 
- - <p>Choose the medicine that needs to be restocked according to the demand and stock left . </p>
- 
-  <div><img src="./images/pharmacy.png" alt="pharmacy table "></div>
+<p>In this simulation, we will demonstrate <strong>Pharmaceutical Supply Chain Simulation with Blockchain</strong>.</p>
+<p>To demonstrate the application of blockchain in enhancing transparency, traceability, and security in the pharmaceutical supply chain, mitigating the risks associated with the transportation of medicines.</p>
 
- - <p>Enter the required quantity of medicine needed, set expecting delivery date , click on the place order button.</p>
+<h4>1. Shipment of Goods</h4>
+<p>The manufacturer initiates the simulation by adding a new set of goods for shipment.</p>
+<p>The blockchain network notifies all relevant entities, including distributors, retailers, pharmacists, and customers.</p>
 
+<ul>
+    <li>Choose <strong>medicine name</strong> and <strong>quantity</strong> from the list and set an <strong>expiry date</strong>. Upon submitting the form, a table containing the details of the medicine will be visible.</li>
+    <li>Observe a new <strong>block being added</strong> to the ledger containing all the details of the medicine.</li>
+</ul>
 
-   <div><img src="./images/orderpharma.png" alt="animation  "></div>
- <b><p>5. Goods Dispatch  from Warehouse</p></b>
- <p>Retailer dispatches the ordered goods to the pharmacy.
-Pharmacist checks the details of the medicine through the blockchain before accepting the shipment.</p>
+<img src="./images/medicineform.png" alt="medicine form">
 
-- Clicks on the next button to proceed to the next stage of the process.
-- Observe the blocks being added to the ledger and the corresponding changes in the ledger as the pharmacist places an order and goods are dispatched, observe a reduction in the total medicine quantity in the warehouse, reflecting the sale to the pharmacy.
- <div><img src="./images/delivery.png" alt="animation  "></div>
+<h4>2. Goods in Transit</h4>
+<p>The distributor picks up the goods from the manufacturer.</p>
+<p>During transit, real-time information about the medicine, such as <strong>temperature, expiry date, and humidity</strong>, is recorded on the blockchain.</p>
 
-<b><p>6.Order Placement:Customer Stage</p></b>
-<p>Customers receive notifications and place orders. Blockchain records the order transactions.</p>
+<ul>
+    <li>Copy and paste the <strong>batch number</strong> from the medicine data table and click on <strong>View Details</strong> to get detailed information about the medicine.</li>
+</ul>
 
-- Click on any of the options given and enter the medicine name and its quantity.
- <div><img src="./images/coustmer.png" alt="coustmer oder placement "></div>
+<img src="./images/distributors.png" alt="medicine going to warehouse">
 
-<b><p> Completion & Key Benefits And Outcome:</p></b>
- <div><img src="./images/complete.png" alt="coustmer oder placement "></div>
+<h4>3. Goods Arrival at Warehouse</h4>
+<p>Goods reach the warehouse. Warehouse personnel can access current details of the medicine through the blockchain, ensuring <strong>transparency and traceability</strong>.</p>
 
-- <p>The simulation concludes once the medicine successfully passes through each stage.</p>
-- <p>Each transaction adds a block to the blockchain ledger, providing a tamper-proof record of the entire supply chain process.</p>
-- <b><p>Enhanced Traceability:</b> Blockchain ensures a transparent and traceable record of the medicine's journey.</p>
-- <p><b>Improved Temperature Control:</b> Real-time monitoring of temperature during transportation.</p>
-- <p><b>Tamper-Proof Records:</b> Every transaction is securely recorded on the blockchain, preventing unauthorized alterations.</p>
+<ul>
+    <li>Copy and paste the <strong>batch number</strong> from the medicine data table and click on <strong>View Details</strong> to get information about the medicine.</li>
+    <li>Observe the <strong>blocks being added</strong> to the ledger containing the details of the medicine.</li>
+</ul>
+
+<img src="./images/reatiler.png" alt="medicine warehouse">
+
+<h4>4. Order Placement: Retailer Stage</h4>
+<p>The retailer checks the current details of the medicine.</p>
+<p>The pharmacist places an order based on <strong>stock and demand</strong>, and the blockchain records the transaction.</p>
+
+<ul>
+    <li>Choose the <strong>medicine that needs to be restocked</strong> according to demand and available stock.</li>
+</ul>
+
+<img src="./images/pharmacy.png" alt="pharmacy table">
+
+<ul>
+    <li>Enter the required <strong>quantity of medicine</strong>, set the <strong>expected delivery date</strong>, and click on the <strong>Place Order</strong> button.</li>
+</ul>
+
+<img src="./images/orderpharma.png" alt="order placement animation">
+
+<h4>5. Goods Dispatch from Warehouse</h4>
+<p>The retailer dispatches the ordered goods to the pharmacy.</p>
+<p>The pharmacist checks the details of the medicine through the blockchain before accepting the shipment.</p>
+
+<ul>
+    <li>Click the <strong>Next</strong> button to proceed to the next stage of the process.</li>
+    <li>Observe the <strong>blocks being added</strong> to the ledger and the corresponding <strong>changes in the ledger</strong> as the pharmacist places an order and goods are dispatched.</li>
+    <li>Observe the <strong>reduction in total medicine quantity</strong> in the warehouse, reflecting the sale to the pharmacy.</li>
+</ul>
+
+<img src="./images/delivery.png" alt="goods dispatch animation">
+
+<h4>6. Order Placement: Customer Stage</h4>
+<p>Customers receive notifications and place orders. The blockchain records the order transactions.</p>
+
+<ul>
+    <li>Click on any of the available options and enter the <strong>medicine name and quantity</strong>.</li>
+</ul>
+
+<img src="./images/coustmer.png" alt="customer order placement">
+
+<h4>Completion & Key Benefits and Outcomes</h4>
+
+<img src="./images/complete.png" alt="completion">
+
+<ul>
+    <li>The simulation concludes once the medicine successfully passes through each stage.</li>
+    <li>Each transaction <strong>adds a block</strong> to the blockchain ledger, providing a <strong>tamper-proof record</strong> of the entire supply chain process.</li>
+    <li><strong>Enhanced Traceability:</strong> Blockchain ensures a <strong>transparent and traceable</strong> record of the medicine’s journey.</li>
+    <li><strong>Improved Temperature Control:</strong> Real-time <strong>monitoring of temperature</strong> during transportation.</li>
+    <li><strong>Tamper-Proof Records:</strong> Every transaction is <strong>securely recorded</strong> on the blockchain, preventing unauthorized alterations.</li>
+</ul>

@@ -51,6 +51,57 @@
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
+    },
+    {
+      "question": "What role does gas play in Ethereum smart contracts?",
+      "answers": {
+        "a": "It measures the computational effort required to execute smart contracts.",
+        "b": "It represents the amount of fuel needed to mine Ethereum.",
+        "c": "It refers to the energy consumption of blockchain nodes.",
+        "d": "It determines the maximum number of smart contracts a user can create."
+      },
+      "explanations": {
+        "a": "Correct! Gas is used to measure the computational cost of executing smart contracts on Ethereum.",
+        "b": "Incorrect. Gas is not related to mining fuel but is used to pay transaction fees.",
+        "c": "Incorrect. Gas fees are not directly related to energy consumption of nodes.",
+        "d": "Incorrect. Gas does not limit the number of smart contracts a user can create."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What happens when a smart contract execution runs out of gas?",
+      "answers": {
+        "a": "The transaction fails and any changes are reverted.",
+        "b": "The contract continues executing with a delay.",
+        "c": "The contract automatically requests additional gas.",
+        "d": "The transaction is completed, but with partial execution."
+      },
+      "explanations": {
+        "a": "Correct! If a smart contract runs out of gas, the transaction fails and all changes are reverted.",
+        "b": "Incorrect. The execution does not continue if gas runs out.",
+        "c": "Incorrect. The contract cannot request additional gas automatically.",
+        "d": "Incorrect. Smart contracts do not allow partial execution when gas runs out."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Why are smart contracts considered secure?",
+      "answers": {
+        "a": "They are immutable once deployed on the blockchain.",
+        "b": "They are written in a special programming language that prevents hacking.",
+        "c": "They can be modified at any time to fix vulnerabilities.",
+        "d": "They require a password to execute."
+      },
+      "explanations": {
+        "a": "Correct! Once a smart contract is deployed, it cannot be changed, ensuring security and trust.",
+        "b": "Incorrect. While smart contracts use secure programming languages, they can still have vulnerabilities if not coded properly.",
+        "c": "Incorrect. Smart contracts are immutable, meaning they cannot be modified once deployed.",
+        "d": "Incorrect. Smart contracts do not require passwords to execute but follow predefined rules."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
     }
   ]
 }
