@@ -1,0 +1,107 @@
+{
+  "version": 1.0,
+  "questions": [
+    {
+      "question": "What is a smart contract in the context of blockchain?",
+      "answers": {
+        "a": "A self-executing contract with the terms of the agreement directly written into code.",
+        "b": "A physical document signed by parties involved in a blockchain transaction.",
+        "c": "A traditional legal contract stored on a blockchain.",
+        "d": "A type of cryptocurrency used for executing transactions on a blockchain."
+      },
+      "explanations": {
+        "a": "Correct! Smart contracts are self-executing contracts with the terms written into code, automatically enforcing the agreement.",
+        "b": "Incorrect. Smart contracts are digital and self-executing, eliminating the need for physical documents.",
+        "c": "Incorrect. Smart contracts are not traditional legal contracts but programmable contracts on a blockchain.",
+        "d": "Incorrect. Smart contracts are code-based, not a type of cryptocurrency."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "How can smart contracts benefit supply chain management?",
+      "answers": {
+        "a": "By increasing transparency and traceability in the supply chain.",
+        "b": "By eliminating the need for any human intervention in supply chain processes.",
+        "c": "By reducing the overall complexity of supply chain systems.",
+        "d": "By providing a secure way to store physical goods in the supply chain."
+      },
+      "explanations": {
+        "a": "Correct! Smart contracts enhance transparency and traceability by recording every transaction on the blockchain.",
+        "b": "Incorrect. While smart contracts automate processes, some human intervention may still be required in supply chain management.",
+        "c": "Incorrect. Smart contracts may add complexity due to their programmable nature but offer benefits in return.",
+        "d": "Incorrect. Smart contracts deal with digital information on the blockchain, not physical goods."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which blockchain platform is known for supporting smart contracts?",
+      "answers": {
+        "a": "Ethereum",
+        "b": "Bitcoin",
+        "c": "Ripple",
+        "d": "Litecoin"
+      },
+      "explanations": {
+        "a": "Correct! Ethereum is a well-known blockchain platform that supports smart contracts.",
+        "b": "Incorrect. Bitcoin does not natively support complex smart contracts like Ethereum.",
+        "c": "Incorrect. Ripple is primarily focused on facilitating international money transfers, not smart contracts.",
+        "d": "Incorrect. Litecoin is a cryptocurrency similar to Bitcoin but does not focus on smart contracts."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What role does gas play in Ethereum smart contracts?",
+      "answers": {
+        "a": "It measures the computational effort required to execute smart contracts.",
+        "b": "It represents the amount of fuel needed to mine Ethereum.",
+        "c": "It refers to the energy consumption of blockchain nodes.",
+        "d": "It determines the maximum number of smart contracts a user can create."
+      },
+      "explanations": {
+        "a": "Correct! Gas is used to measure the computational cost of executing smart contracts on Ethereum.",
+        "b": "Incorrect. Gas is not related to mining fuel but is used to pay transaction fees.",
+        "c": "Incorrect. Gas fees are not directly related to energy consumption of nodes.",
+        "d": "Incorrect. Gas does not limit the number of smart contracts a user can create."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What happens when a smart contract execution runs out of gas?",
+      "answers": {
+        "a": "The transaction fails and any changes are reverted.",
+        "b": "The contract continues executing with a delay.",
+        "c": "The contract automatically requests additional gas.",
+        "d": "The transaction is completed, but with partial execution."
+      },
+      "explanations": {
+        "a": "Correct! If a smart contract runs out of gas, the transaction fails and all changes are reverted.",
+        "b": "Incorrect. The execution does not continue if gas runs out.",
+        "c": "Incorrect. The contract cannot request additional gas automatically.",
+        "d": "Incorrect. Smart contracts do not allow partial execution when gas runs out."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Why are smart contracts considered secure?",
+      "answers": {
+        "a": "They are immutable once deployed on the blockchain.",
+        "b": "They are written in a special programming language that prevents hacking.",
+        "c": "They can be modified at any time to fix vulnerabilities.",
+        "d": "They require a password to execute."
+      },
+      "explanations": {
+        "a": "Correct! Once a smart contract is deployed, it cannot be changed, ensuring security and trust.",
+        "b": "Incorrect. While smart contracts use secure programming languages, they can still have vulnerabilities if not coded properly.",
+        "c": "Incorrect. Smart contracts are immutable, meaning they cannot be modified once deployed.",
+        "d": "Incorrect. Smart contracts do not require passwords to execute but follow predefined rules."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    }
+  ]
+}
