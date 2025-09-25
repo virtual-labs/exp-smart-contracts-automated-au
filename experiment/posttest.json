@@ -2,55 +2,89 @@
   "version": 1.0,
   "questions": [
     {
-      "question": "Explain how smart contracts can improve the efficiency of supply chain processes.",
+      "question": "What is the main advantage of using smart contracts in digital transactions?",
       "answers": {
-        "a": "By reducing paperwork and manual documentation.",
-        "b": "By automatically executing and enforcing agreements.",
-        "c": "By providing real-time visibility into the supply chain.",
-        "d": "All of the above."
+        "a": "They execute agreements automatically when conditions are met.",
+        "b": "They replace all legal systems worldwide.",
+        "c": "They guarantee physical delivery of products.",
+        "d": "They eliminate the need for encryption."
       },
       "explanations": {
-        "a": "Correct! Smart contracts reduce paperwork and manual processes, enhancing efficiency.",
-        "b": "Correct! Smart contracts automatically execute and enforce agreements without the need for intermediaries.",
-        "c": "Correct! Smart contracts provide real-time visibility, improving transparency in the supply chain.",
-        "d": "Correct! All of the above statements are true regarding how smart contracts can improve supply chain efficiency."
+        "a": "Correct! Smart contracts execute automatically based on predefined rules, ensuring efficiency and trust.",
+        "b": "Incorrect. Smart contracts cannot replace legal systems.",
+        "c": "Incorrect. Smart contracts handle digital agreements, not physical delivery.",
+        "d": "Incorrect. Encryption is still required to secure blockchain data."
       },
-      "correctAnswer": "d",
-      "difficulty": "intermediate"
+      "correctAnswer": "a",
+      "difficulty": "beginner"
     },
     {
-      "question": "In what ways can smart contracts enhance transparency in supply chain management?",
+      "question": "How do smart contracts enhance security in digital systems?",
       "answers": {
-        "a": "By recording every transaction on an immutable blockchain.",
-        "b": "By allowing only authorized participants to access information.",
-        "c": "By encrypting all supply chain data.",
-        "d": "By automating all supply chain processes."
+        "a": "By using cryptographic techniques to prevent tampering.",
+        "b": "By allowing anyone to change the terms at any time.",
+        "c": "By storing sensitive data in plain text.",
+        "d": "By sending email alerts to users."
       },
       "explanations": {
-        "a": "Correct! Smart contracts enhance transparency by recording transactions on an immutable blockchain.",
-        "b": "Incorrect. Transparency is achieved by making information accessible to all authorized participants.",
-        "c": "Incorrect. While encryption may secure data, it doesn't necessarily enhance transparency.",
-        "d": "Incorrect. While smart contracts automate processes, transparency is about open access to information, not automation."
+        "a": "Correct! Smart contracts rely on cryptography and immutable blockchain records for security.",
+        "b": "Incorrect. Smart contracts are immutable once deployed.",
+        "c": "Incorrect. Data on the blockchain is encrypted, not stored in plain text.",
+        "d": "Incorrect. Email alerts are unrelated to blockchain security."
       },
       "correctAnswer": "a",
       "difficulty": "intermediate"
     },
     {
-      "question": "What role do intermediaries play in a supply chain with smart contracts?",
+      "question": "Which of the following best describes how smart contracts operate?",
       "answers": {
-        "a": "Intermediaries become unnecessary as smart contracts automate processes.",
-        "b": "Intermediaries are still required to execute smart contracts.",
-        "c": "Smart contracts have no impact on the role of intermediaries.",
-        "d": "Intermediaries become more prominent in a blockchain-based supply chain."
+        "a": "They follow predefined conditions coded in software to execute actions automatically.",
+        "b": "They require manual approval for each transaction.",
+        "c": "They generate revenue without any rules.",
+        "d": "They work only with physical paperwork."
       },
       "explanations": {
-        "a": "Correct! Smart contracts aim to reduce the need for intermediaries by automating processes.",
-        "b": "Incorrect. The goal of smart contracts is to eliminate the need for intermediaries.",
-        "c": "Incorrect. Smart contracts do impact the role of intermediaries by automating and streamlining processes.",
-        "d": "Incorrect. Smart contracts are designed to reduce the reliance on intermediaries in supply chain processes."
+        "a": "Correct! Smart contracts execute automatically based on the rules defined in their code.",
+        "b": "Incorrect. Manual approval is not needed unless coded as a condition.",
+        "c": "Incorrect. Smart contracts do not create revenue automatically; they enforce rules.",
+        "d": "Incorrect. They are purely digital and do not rely on physical paperwork."
       },
       "correctAnswer": "a",
-      "difficulty": "advanced"
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Why are smart contracts considered transparent?",
+      "answers": {
+        "a": "Because all transactions are recorded on a public or permissioned blockchain.",
+        "b": "Because they hide all user data from everyone.",
+        "c": "Because only the creator can see the contract details.",
+        "d": "Because they require manual verification of every step."
+      },
+      "explanations": {
+        "a": "Correct! Transparency comes from the immutable blockchain ledger that records every action.",
+        "b": "Incorrect. Smart contracts are not designed to hide data from all participants.",
+        "c": "Incorrect. Transparency ensures multiple parties can verify the contract execution.",
+        "d": "Incorrect. Execution is automated, not manually verified."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What ensures that smart contracts are tamper-proof?",
+      "answers": {
+        "a": "Blockchain immutability and cryptographic hashing.",
+        "b": "Frequent manual audits.",
+        "c": "Centralized control by a single organization.",
+        "d": "Storing contracts in local files on a computer."
+      },
+      "explanations": {
+        "a": "Correct! Smart contracts benefit from the blockchain’s immutable and cryptographically secured nature.",
+        "b": "Incorrect. Manual audits help but do not guarantee tamper-proof execution.",
+        "c": "Incorrect. Centralized control can make systems vulnerable to tampering.",
+        "d": "Incorrect. Local files are not secure or immutable like blockchain."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
     }
   ]
 }
