@@ -1,84 +1,54 @@
-<h3>Procedure</h3>
 
-<p>In this simulation, we will demonstrate <strong>Pharmaceutical Supply Chain Simulation with Blockchain</strong>.</p>
-<p>To demonstrate the application of blockchain in enhancing transparency, traceability, and security in the pharmaceutical supply chain, mitigating the risks associated with the transportation of medicines.</p>
 
-<h4>1. Shipment of Goods</h4>
-<p>The manufacturer initiates the simulation by adding a new set of goods for shipment.</p>
-<p>The blockchain network notifies all relevant entities, including distributors, retailers, pharmacists, and customers.</p>
+<p>In this simulation, we will demonstrate the Pharmaceutical Supply Chain Simulation with Blockchain. </p>
+<p>This simulation showcases the application of blockchain in enhancing transparency, traceability, and security in the pharmaceutical supply chain, mitigating the risks associated with the transportation of medicines.</p>
+<p>Click the 'Start Simulation' button to start the Pharmaceutical Supply Chain Simulation.</p>
+<div><img src="./images/exp60.png" alt="medicine form "></div>
 
-<ul>
-    <li>Choose <strong>medicine name</strong> and <strong>quantity</strong> from the list and set an <strong>expiry date</strong>. Upon submitting the form, a table containing the details of the medicine will be visible.</li>
-    <li>Observe a new <strong>block being added</strong> to the ledger containing all the details of the medicine.</li>
-</ul>
+<b><p>1. Manufacturer</p></b>
 
-<img src="./images/medicineform.png" alt="medicine form">
+<p>The Manufacturer initiates the simulation by adding a new set of medicines for shipment.  
+</p>
 
-<h4>2. Goods in Transit</h4>
-<p>The distributor picks up the goods from the manufacturer.</p>
-<p>During transit, real-time information about the medicine, such as <strong>temperature, expiry date, and humidity</strong>, is recorded on the blockchain.</p>
+- <p>Click the 'Add Medicine' button and fill in the details of the new medicine. Once the medicine name, batch ID, quantity, and expiry date are entered, click the 'Add Medicine' button to manufacture the medicine.
+</p>
+  <div><img src="./images/exp61.png" alt="medicine form "></div>
+  <div><img src="./images/exp62.png" alt="medicine form "></div>
 
-<ul>
-    <li>Copy and paste the <strong>batch number</strong> from the medicine data table and click on <strong>View Details</strong> to get detailed information about the medicine.</li>
-</ul>
+- <p>Observe a new block being added to the ledger with all the details of the medicine. Then click the 'Next' button to move on to the next step.</p>
+  <div><img src="./images/exp63.png" alt="medicine form "></div>
 
-<img src="./images/distributors.png" alt="medicine going to warehouse">
+<b><p>2. Distributor</p></b>
 
-<h4>3. Goods Arrival at Warehouse</h4>
-<p>Goods reach the warehouse. Warehouse personnel can access current details of the medicine through the blockchain, ensuring <strong>transparency and traceability</strong>.</p>
+<p>The Distributor picks up the medicine from the manufacturer.</p>
 
-<ul>
-    <li>Copy and paste the <strong>batch number</strong> from the medicine data table and click on <strong>View Details</strong> to get information about the medicine.</li>
-    <li>Observe the <strong>blocks being added</strong> to the ledger containing the details of the medicine.</li>
-</ul>
+- <p>Click the 'Receive Medicine' button, choose the quantity of medicine, and click 'Confirm Quantity' to buy medicines from the manufacturer.</p>
+  <div><img src="./images/exp64.png" alt="medicine going to warehouse "></div>
+  <div><img src="./images/exp65.png" alt="medicine going to warehouse "></div>
 
-<img src="./images/reatiler.png" alt="medicine warehouse">
+- <p>Observe a new block being added to the ledger with all the details of the medicine. Then click the 'Next' button to move on to the next step.</p>
+  <div><img src="./images/exp66.png" alt="medicine going to warehouse "></div>
 
-<h4>4. Order Placement: Retailer Stage</h4>
-<p>The retailer checks the current details of the medicine.</p>
-<p>The pharmacist places an order based on <strong>stock and demand</strong>, and the blockchain records the transaction.</p>
+<b><p>3. Pharmacy</p></b>
 
-<ul>
-    <li>Choose the <strong>medicine that needs to be restocked</strong> according to demand and available stock.</li>
-</ul>
 
-<img src="./images/pharmacy.png" alt="pharmacy table">
 
-<ul>
-    <li>Enter the required <strong>quantity of medicine</strong>, set the <strong>expected delivery date</strong>, and click on the <strong>Place Order</strong> button.</li>
-</ul>
+- <p>Click the 'Manage Stock' button, choose the medicine quantity, and click 'Confirm Quantities' to buy medicines from the distributor.</p>
+  <div><img src="./images/exp67.png" alt="pharmacy table "></div>
+  <div><img src="./images/exp68.png" alt="pharmacy table "></div>
 
-<img src="./images/orderpharma.png" alt="order placement animation">
+- <p>Observe a new block being added to the ledger with all the details of the medicine. Then click the 'Next' button to move on to the next step.</p>
+  <div><img src="./images/exp69.png" alt="pharmacy table "></div>
 
-<h4>5. Goods Dispatch from Warehouse</h4>
-<p>The retailer dispatches the ordered goods to the pharmacy.</p>
-<p>The pharmacist checks the details of the medicine through the blockchain before accepting the shipment.</p>
+<b><p>4. Sales</p></b>
 
-<ul>
-    <li>Click the <strong>Next</strong> button to proceed to the next stage of the process.</li>
-    <li>Observe the <strong>blocks being added</strong> to the ledger and the corresponding <strong>changes in the ledger</strong> as the pharmacist places an order and goods are dispatched.</li>
-    <li>Observe the <strong>reduction in total medicine quantity</strong> in the warehouse, reflecting the sale to the pharmacy.</li>
-</ul>
 
-<img src="./images/delivery.png" alt="goods dispatch animation">
+- <p>Click the 'Manage Sales' button, choose a Recipient from the dropdown (Hospital, Outlet, Patient), select the quantity from the available stock, and click 'Add Recipient.' Users can add multiple recipients. Once recipients are added, click the 'Confirm All Sales' button to finalize the sale.</p>
+<div><img src="./images/exp610.png" alt="animation  "></div>
+<div><img src="./images/exp611.png" alt="customer order placement "></div>
 
-<h4>6. Order Placement: Customer Stage</h4>
-<p>Customers receive notifications and place orders. The blockchain records the order transactions.</p>
+- <p>Observe a new block being added to the ledger with all the details of the medicine.</p>
+  <div><img src="./images/exp612.png" alt="customer order placement "></div>
 
-<ul>
-    <li>Click on any of the available options and enter the <strong>medicine name and quantity</strong>.</li>
-</ul>
+- <p>Each transaction adds a block to the blockchain ledger, providing a tamper-proof record of the entire supply chain process.</p>
 
-<img src="./images/coustmer.png" alt="customer order placement">
-
-<h4>Completion & Key Benefits and Outcomes</h4>
-
-<img src="./images/complete.png" alt="completion">
-
-<ul>
-    <li>The simulation concludes once the medicine successfully passes through each stage.</li>
-    <li>Each transaction <strong>adds a block</strong> to the blockchain ledger, providing a <strong>tamper-proof record</strong> of the entire supply chain process.</li>
-    <li><strong>Enhanced Traceability:</strong> Blockchain ensures a <strong>transparent and traceable</strong> record of the medicine’s journey.</li>
-    <li><strong>Improved Temperature Control:</strong> Real-time <strong>monitoring of temperature</strong> during transportation.</li>
-    <li><strong>Tamper-Proof Records:</strong> Every transaction is <strong>securely recorded</strong> on the blockchain, preventing unauthorized alterations.</li>
-</ul>
