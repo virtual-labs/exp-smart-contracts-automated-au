@@ -1,72 +1,18 @@
-<u><h3>Theory</h3></u>
-<b><p> Smart contract</p></b>
-
-<p><b>Traditional contracts:</b> These are written agreements between two or more parties, outlining rights, obligations, and consequences. They rely on trust, legal systems, and intermediaries like lawyers for enforcement.</p>
-
-<p><b>Smart contracts:</b> Smart contracts are computer programs that are hosted and executed on a blockchain network. Each smart contract consists of code specifying predetermined conditions that, when met, trigger outcomes. By running on a decentralised blockchain instead of a centralised server, smart contracts allow multiple parties to come to a shared result in an accurate, timely, and tamper-proof manner.
-
-</p>
-
- <center><div><img src="./images/smartcontract2.2.jpg" alt="proof"></div></center>
- <p>Smart contracts have the potential to revolutionise a wide range of industries, including supply chain management, financial services, and healthcare.
-</p>
-<p><b>IBM, Honeywell, and Walmart</b> are three of the world's leading companies that are using smart contracts in real-world applications. 
-</p>
-<h3>A comparative analysis of smart contract use cases across IBM, Honeywell, and Walmart
-</h3>
 
 
+<b><p>Smart Contracts in Pharmaceutical Supply Chain</p></b>
 
-| Company | Use Case | Challenge |Smart contract solution | Benefits|
-| :---: | :---: | :---: | :---: | :---: |
-| IBM  |IBM Food Trust |Ensuring food safety and traceability |Smart contracts track food provenance from farm to table|Reduces food waste, enhances consumer trust |
-|| IBM Blockchain Platform|Automating financial transaction|Smart contracts execute financial transactions securely and efficiently|Reduces costs, improves transaction speed|
-||IBM Hyperledger Fabric|Managing patient data and medical records|Smart contracts maintain patient data privacy and facilitate secure record sharing|Enhances patient care, improves healthcare outcomes|
-|Honeywell|Honeywell GoDirect Trade|Automating invoice processing for aerospace and defence customers|Smart contracts automate invoice creation, payment approvals, and payment execution|Reduces processing time, improves cash flow|
-||Honeywell Connected Worker|Managing contract lifecycle for connected worker solutions|Smart contracts track contract terms, automate notifications, and enforce compliance|Enhances contract management efficiency, reduces disputes|
-||Honeywell Traceability Solutions|Tracking goods movement from suppliers to customers|Smart contracts track goods location, status, and ownership|Improves supply chain visibility, reduces risks|
-|Walmart|Walmart Food Safety and Traceability|Ensuring food safety and reducing food waste|Smart contracts track food provenance and identify potential contamination risks|Enhances food safety, reduces food waste|
-||Walmart Blockchain Freight Pilot|Optimising freight routing and reducing fuel consumption|Smart contracts track freight location, optimise routes, and automate payments|Improves logistics efficiency, reduces fuel costs|
-||Open-source blockchain contribution|Promoting open standards and collaboration|Smart contracts are open-source,contributing to industry standards|Enhances blockchain ecosystem development, promotes interoperability| 
+<p>Traditional pharmaceutical supply chains face challenges such as counterfeit medicines, lack of transparency, poor traceability, and weak temperature monitoring during transportation. These issues not only lead to financial losses but also endanger patient safety.</p>
 
+<p>A <b>smart contract</b> is a self-executing program stored on a blockchain that automatically enforces predefined rules when conditions are met. In the pharmaceutical supply chain, smart contracts can be used to ensure that every transaction  from manufacturing to distribution, pharmacy stocking, and patient delivery is securely recorded, tamper-proof, and transparent to all participants.</p>
+ <div><img src="./images/Screenshot 2025-09-25 150442.png" alt="medicine form "></div>
 
-
-<p> We have developed a usecase on Secure and Transparent Pharmaceutical Supply Chain with Blockchain</p>
-<p>Problem: Medicine transport is complicated and can expose patients to fake drugs or spoiled medicine, costing money and harming people.</p>
-
-- <p><b>Providing a tamper-proof record of every transaction:</b> This allows all parties involved in the supply chain to track and verify the authenticity of pharmaceuticals, from manufacturing to dispensing.</p>
-
-- <p><b>Enhancing traceability:</b> With blockchain, it is possible to trace the origin of a pharmaceutical product and identify its location at all times. This enables authorities to quickly identify and isolate counterfeit drugs and respond to product recalls.</p>
-
-- <p><b>Improving temperature control:</b> Blockchain can be used to monitor the temperature of pharmaceuticals in real-time, ensuring that they are stored and transported within safe limits.
-</p>
-
-- <p><b>Identifying potential shortages:</b> By analysing real-time inventory data, potential shortages can be predicted and addressed proactively. This allows manufacturers to adjust production schedules and distributors to optimise stock allocation.</p>
-
-- <p><b>Preventing overstocking:</b> With accurate insights into demand and supply, overstocking situations can be avoided, reducing unnecessary costs and potential waste.</p>
-
-- <p><b>Streamlined communication:</b> Blockchain-based platforms enable efficient communication between manufacturers, distributors, healthcare providers, and regulatory authorities, ensuring timely information exchange and coordinated actions.</p>
-
-- <p><b>Faster decision-making:</b> With access to comprehensive and up-to-date data, stakeholders can make informed decisions faster, responding to surging demand with agility and adaptability.</p>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<p>By recording each step of the medicine’s journey on the blockchain ledger:</p>
+<ul>
+  <li><b>Authenticity:</b> Every batch of medicine is registered by the manufacturer, making it difficult for counterfeit drugs to enter the supply chain.</li>
+  <li><b>Traceability:</b> Medicines can be tracked at every stage (manufacturer → distributor → pharmacy → patient), ensuring visibility and accountability.</li>
+  <li><b>Security:</b> Each transaction is immutable and time-stamped, preventing unauthorized alterations.</li>
+  <li><b>Temperature Control:</b> Smart contracts can integrate IoT data to verify that medicines are stored and transported within safe temperature ranges.</li>
+  <li><b>Efficiency:</b> Automating stock management and sales through smart contracts reduces manual errors and speeds up decision-making.</li>
+</ul>
+<p>This experiment demonstrates a use case of blockchain-based smart contracts for a <b>Secure and Transparent Pharmaceutical Supply Chain</b>. By simulating the journey of medicines from manufacturer to patient, the role of smart contracts in preventing counterfeiting, ensuring authenticity, and enhancing trust in healthcare can be clearly observed.</p>
