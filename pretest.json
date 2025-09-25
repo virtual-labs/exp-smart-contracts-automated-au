@@ -1,0 +1,56 @@
+{
+  "version": 1.0,
+  "questions": [
+    {
+      "question": "How do smart contracts help ensure authenticity in a supply chain?",
+      "answers": {
+        "a": "By recording each batch or transaction securely on the blockchain.",
+        "b": "By storing physical products directly on the blockchain.",
+        "c": "By eliminating the need for all intermediaries in global trade.",
+        "d": "By controlling the physical temperature of goods during transport."
+      },
+      "explanations": {
+        "a": "Correct! Smart contracts ensure authenticity by recording transactions immutably on the blockchain.",
+        "b": "Incorrect. Smart contracts only store digital records, not physical goods.",
+        "c": "Incorrect. Intermediaries may still exist, though processes are automated.",
+        "d": "Incorrect. Smart contracts alone do not control temperature, but they can verify IoT data."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which of the following best explains how smart contracts improve traceability?",
+      "answers": {
+        "a": "They allow tracking of every stage of a transaction or product movement on the blockchain.",
+        "b": "They automatically reduce costs by half for all stakeholders.",
+        "c": "They eliminate the need for data storage in supply systems.",
+        "d": "They replace all forms of physical auditing processes."
+      },
+      "explanations": {
+        "a": "Correct! Smart contracts enhance traceability by recording each stage in an immutable ledger.",
+        "b": "Incorrect. Cost reduction is an indirect benefit, not a guaranteed feature.",
+        "c": "Incorrect. Data storage is still necessary, but blockchain improves security and access.",
+        "d": "Incorrect. Physical audits may still be needed, but blockchain increases trust in records."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What role do smart contracts play in improving efficiency?",
+      "answers": {
+        "a": "They automate transactions and reduce manual errors by enforcing predefined rules.",
+        "b": "They create new physical goods in the system automatically.",
+        "c": "They allow only government organizations to verify transactions.",
+        "d": "They remove the need for any form of digital records."
+      },
+      "explanations": {
+        "a": "Correct! Smart contracts improve efficiency by automating processes and reducing human error.",
+        "b": "Incorrect. Smart contracts do not generate physical products.",
+        "c": "Incorrect. Verification is not limited to government bodies.",
+        "d": "Incorrect. Smart contracts rely on digital records stored on the blockchain."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    }
+  ]
+}
