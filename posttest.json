@@ -1,0 +1,90 @@
+{
+  "version": 1.0,
+  "questions": [
+    {
+      "question": "What is the main advantage of using smart contracts in digital transactions?",
+      "answers": {
+        "a": "They execute agreements automatically when conditions are met.",
+        "b": "They replace all legal systems worldwide.",
+        "c": "They guarantee physical delivery of products.",
+        "d": "They eliminate the need for encryption."
+      },
+      "explanations": {
+        "a": "Correct! Smart contracts execute automatically based on predefined rules, ensuring efficiency and trust.",
+        "b": "Incorrect. Smart contracts cannot replace legal systems.",
+        "c": "Incorrect. Smart contracts handle digital agreements, not physical delivery.",
+        "d": "Incorrect. Encryption is still required to secure blockchain data."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "How do smart contracts enhance security in digital systems?",
+      "answers": {
+        "a": "By using cryptographic techniques to prevent tampering.",
+        "b": "By allowing anyone to change the terms at any time.",
+        "c": "By storing sensitive data in plain text.",
+        "d": "By sending email alerts to users."
+      },
+      "explanations": {
+        "a": "Correct! Smart contracts rely on cryptography and immutable blockchain records for security.",
+        "b": "Incorrect. Smart contracts are immutable once deployed.",
+        "c": "Incorrect. Data on the blockchain is encrypted, not stored in plain text.",
+        "d": "Incorrect. Email alerts are unrelated to blockchain security."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "Which of the following best describes how smart contracts operate?",
+      "answers": {
+        "a": "They follow predefined conditions coded in software to execute actions automatically.",
+        "b": "They require manual approval for each transaction.",
+        "c": "They generate revenue without any rules.",
+        "d": "They work only with physical paperwork."
+      },
+      "explanations": {
+        "a": "Correct! Smart contracts execute automatically based on the rules defined in their code.",
+        "b": "Incorrect. Manual approval is not needed unless coded as a condition.",
+        "c": "Incorrect. Smart contracts do not create revenue automatically; they enforce rules.",
+        "d": "Incorrect. They are purely digital and do not rely on physical paperwork."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Why are smart contracts considered transparent?",
+      "answers": {
+        "a": "Because all transactions are recorded on a public or permissioned blockchain.",
+        "b": "Because they hide all user data from everyone.",
+        "c": "Because only the creator can see the contract details.",
+        "d": "Because they require manual verification of every step."
+      },
+      "explanations": {
+        "a": "Correct! Transparency comes from the immutable blockchain ledger that records every action.",
+        "b": "Incorrect. Smart contracts are not designed to hide data from all participants.",
+        "c": "Incorrect. Transparency ensures multiple parties can verify the contract execution.",
+        "d": "Incorrect. Execution is automated, not manually verified."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "What ensures that smart contracts are tamper-proof?",
+      "answers": {
+        "a": "Blockchain immutability and cryptographic hashing.",
+        "b": "Frequent manual audits.",
+        "c": "Centralized control by a single organization.",
+        "d": "Storing contracts in local files on a computer."
+      },
+      "explanations": {
+        "a": "Correct! Smart contracts benefit from the blockchain’s immutable and cryptographically secured nature.",
+        "b": "Incorrect. Manual audits help but do not guarantee tamper-proof execution.",
+        "c": "Incorrect. Centralized control can make systems vulnerable to tampering.",
+        "d": "Incorrect. Local files are not secure or immutable like blockchain."
+      },
+      "correctAnswer": "a",
+      "difficulty": "intermediate"
+    }
+  ]
+}
